@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(252, 247, 247);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(158, 156, 156);
+  margin: 100px auto;
+  background-color: white;
+  height: 400px;
+  width: 280px;
+  align-items: center;
+}
+
+.imagem_shopseg {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+.Container_login {
+  display: flex;
+  flex-direction: column;
+}
+
+#inputLogin, #inputSenha {
+border-left: none;
+border-top: none;
+border-right: none;
+}
+
+.Container .botaoEntrar {
+  margin-top: 15px;
+  background-color: rgb(93, 10, 161);
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
